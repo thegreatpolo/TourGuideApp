@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TourGuideApp</string>
+    <string name="general_description">Corsica is a French island located in the mediterranean sea, southeast of the French mainland. Its climate, mountains and coastlines make tourism a major part of its economy.</string>
+    <string name="credits_corsica_map_general">Picture: Eric Gaba – Wikimedia Commons user: Sting \nCC BY-SA 3.0</string>
+
+    <string name="general">General</string>
+    <string name="food">Food</string>
+</resources>
