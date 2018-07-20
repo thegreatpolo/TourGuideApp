@@ -5,19 +5,20 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.TextView;
 
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by paulcristofari on 19/07/2018.
  */
 
-public class ListAdapter extends ArrayAdapter<List> {
+public class StuffAdapter extends ArrayAdapter<Stuff> {
 
-    public ListAdapter(Context context, ArrayList<List> list){
+    public StuffAdapter(Context context, ArrayList<Stuff> list) {
         super(context, 0, list);
     }
+
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         // Check if an existing view is being reused, otherwise inflate the view
@@ -27,5 +28,14 @@ public class ListAdapter extends ArrayAdapter<List> {
                     R.layout.list_item, parent, false);
         }
 
-   return listItemView; }}
+        // We want to get an item in the list
+        Stuff object = getItem(position);
+
+        // We find the view to set text
+        TextView objectTextView = (TextView) listItemView.findViewById(R.id.object_text);
+        objectTextView.setText(object.getItemId());
+
+        return listItemView;
+    }
+}
 

@@ -4,11 +4,11 @@ package com.example.android.tourguideapp;
  * Created by paulcristofari on 19/07/2018.
  */
 
-public class List {
+public class Stuff {
 
     private int mItemId;
 
-    public List(int itemId) {
+    public Stuff(int itemId) {
         mItemId = itemId;
     }
 
