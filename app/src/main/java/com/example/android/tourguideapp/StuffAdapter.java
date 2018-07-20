@@ -35,6 +35,9 @@ public class StuffAdapter extends ArrayAdapter<Stuff> {
         TextView objectTextView = (TextView) listItemView.findViewById(R.id.object_text);
         objectTextView.setText(object.getItemId());
 
+        TextView objectDetailTextView = (TextView) listItemView.findViewById(R.id.object_detail);
+        objectDetailTextView.setText(object.getDetailId());
+
         return listItemView;
     }
 }

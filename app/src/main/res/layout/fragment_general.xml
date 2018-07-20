@@ -1,67 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/general"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
-    android:id="@+id/general">
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/borders">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <LinearLayout
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginRight="@dimen/borders"
-            android:layout_weight="1"
-            android:background="@android:color/black">
+            android:layout_margin="@dimen/borders">
 
-            <ImageView
-                android:layout_width="match_parent"
+            <LinearLayout
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:adjustViewBounds="true"
-                android:padding="3dp"
-                android:scaleType="fitCenter"
-                android:src="@drawable/carte_corse" />
+                android:layout_marginRight="@dimen/borders"
+                android:layout_weight="1"
+                android:background="@android:color/black">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:padding="3dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/carte_corse" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/borders"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/borders"
+                    android:gravity="center"
+                    android:text="@string/corsica"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/title"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/borders"
+                    android:justificationMode="inter_word"
+                    android:text="@string/general_description"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="bottom"
+                    android:text="@string/credits_corsica_map_general" />
+
+            </RelativeLayout>
         </LinearLayout>
 
-        <RelativeLayout
-            android:layout_width="0dp"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:layout_marginLeft="@dimen/borders">
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="CORSICA"
-                android:textStyle="bold"
-                android:gravity="center"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/title"
-                android:layout_marginBottom="@dimen/borders"/>
-            
-            <TextView
-                android:layout_centerVertical="true"
                 android:layout_marginTop="@dimen/borders"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/general_description"
-                android:textSize="16sp"
+                android:layout_marginRight="@dimen/borders"
+                android:layout_marginLeft="@dimen/borders"
+                android:text="A bit of History"
                 android:textColor="@android:color/black"
-                android:justificationMode="inter_word"
-                android:layout_gravity="center_horizontal"/>
+                android:textSize="@dimen/title" />
 
             <TextView
-                android:layout_alignParentBottom="true"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/credits_corsica_map_general"
-                android:gravity="bottom"
-                />
-
-        </RelativeLayout>
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/borders"
+                android:text="The origin of the name Corsica is subject to much debate and remains a mystery. It has been occupied continuously since the Mesolithic era. It acquired an indigenous population that was influential in the Mediterranean during its long prehistory. Corsica was integrated by Emperor Diocletian (r. 284-305) in Roman Italy. In the 5th century, the western half of the Roman Empire collapsed, and the island was invaded by the Vandals and the Ostrogoths. Briefly recovered by the Byzantines, it soon became part of the Kingdom of the Lombards. This made it a dependency of the March of Tuscany, which used it as an outpost against the Saracens.[3] Pepin the Short, king of the Franks and Charlemagne's father, expelled the Lombards and nominally granted Corsica to Pope Stephen II.[3] In the first quarter of the 11th century, Pisa and Genoa together freed the island from the threat of Arab invasion.[3] After that, the island came under the influence of the republic of Pisa. In the 16th century, the island entered into the fight between Spain and France for the supremacy in Italy.[5] In 1553, a Franco-Ottoman fleet occupied Corsica, but the reaction of Spain and Genoa, led by Andrea Doria, reestablished the Genoese supremacy on the island. In 1729 the Corsican Revolution for independence from Genoa began, and the independent Corsican Republic was proclaimed in 1755 under the leadership of Pasquale Paoli. It will last until 1769, when the island is conquered by France. More on Wikipedia"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"/>
+        </LinearLayout>
     </LinearLayout>
-
-</LinearLayout>
+</ScrollView>

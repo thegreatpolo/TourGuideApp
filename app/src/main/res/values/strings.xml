@@ -1,9 +1,52 @@
 <resources>
     <string name="app_name">TourGuideApp</string>
-    <string name="general_description">Corsica is a French island located in the mediterranean sea, southeast of the French mainland. Its climate, mountains and coastlines make tourism a major part of its economy.</string>
+    <string name="general_description">Corsica is a French island located in the mediterranean sea, southeast of the French mainland.</string>
     <string name="credits_corsica_map_general">Picture: Eric Gaba – Wikimedia Commons user: Sting \nCC BY-SA 3.0</string>
 
     <string name="general">General</string>
-    <string name="food">Food</string>
-    <string name="lonzo">Lonzo</string>
+    <string name="cuisine">Cuisine</string>
+    <string name="corsica">Corsica</string>
+
+    <string name="chestnut">Chestnut</string>
+    <string name="chestnut_detail">largely cultivated and found in many dishes and drinks (including beer !)</string>
+
+    <string name="cheese">Cheese</string>
+    <string name="cheese_detail">exclusively made with sheep or goat milk. Most famous is Brocciu produced from a combination of milk and whey, from ewe\'s milk</string>
+
+    <string name="lonzu">Lonzu</string>
+    <string name="lonzu_detail">one of the four pork\'s fillets, peppered, salted and smoked</string>
+
+    <string name="figatellu">Figatellu</string>
+    <string name="figatellu_detail">sausage made with pork liver, usually cooked</string>
+
+    <string name="coppa">Coppa</string>
+    <string name="coppa_detail">pork cold cut, salted</string>
+
+    <string name="wine">Wine</string>
+    <string name="wine_detail">traditional wines are protected AOC denomination and include the famous Porto Vecchio, Figari, Sartène, Ajaccio, Calvi, Patrimonio</string>
+
+    <string name="beer">Beer</string>
+    <string name="beer_detail">Corsica has its own chestnut beer, brewed since 1996 by the Pietra Brewery</string>
+
+    <string name="places">Places to see</string>
+    <string name="places_description">Corsica is well know for its small villages to visit, its beaches, its mountains. Here are a few places you might want to visit !</string>
+
+    <string name="bastia">Bastia</string>
+    <string name="bastia_detail">Bastia is second most populated city on the island. Located at the bottom of the cap Corse, connections are posible with the continent via plane or ferry </string>
+
+    <string name="ajaccio">Ajaccio</string>
+    <string name="ajaccio_detail">Ajaccio is the home town of Napoleon Bonaparte. It is the largest city of the island, located in the south west of Corsica</string>
+
+    <string name="corte">Corte</string>
+    <string name="corte_detail"> it is one of the major university town in Corsica, and was the capital of the Corsican independent state.</string>
+    
+    <string name="porto_vecchio">Porto\nVecchio</string>
+    <string name="porto_vecchio_detail">Located in the south east of Corsica, this important port city is know for its seaside </string>
+
+    <string name="nonza">Nonza</string>
+    <string name="nonza_detail">Nonza is a small village known for its black stones beach, which color is due to asbestos treatment factory wastes</string>
+
+    <string name="ile_rousse">L\'île-\nRousse</string>
+    <string name="ile_rousse_detail">L\'île-Rousse was founded in 1758 by Pasquale Paoli to create a port that would not be in the hands of the Genoese like Calvi. </string>
+
 </resources>

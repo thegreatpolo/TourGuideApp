@@ -1,12 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/general"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
-    android:id="@+id/general">
+    android:background="@android:color/white"
+    android:orientation="vertical">
 
 
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/borders"
+        android:layout_marginRight="@dimen/borders"
+        android:layout_marginTop="@dimen/borders"
+        android:text="@string/cuisine"
+        android:textAllCaps="true"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/title"
+        android:textStyle="bold" />
 
+    <TextView
+        android:id="@+id/category_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/borders"
+        android:text="Corsica is particularly known for its local delicacies, produced with respect towards traditions."
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginRight="@dimen/borders"
+        android:layout_marginLeft="@dimen/borders"
+        android:background="@android:color/black"></View>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/borders"
+        android:layout_marginLeft="@dimen/borders"
+        android:layout_marginBottom="@dimen/borders"
+        android:background="#424242">
+
+    </ListView>
 
 
 </LinearLayout>

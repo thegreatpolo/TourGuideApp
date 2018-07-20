@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        hideActionBar();
         RelativeLayout home = findViewById(R.id.home);
         home.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -21,6 +21,10 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });}
+
+    public void hideActionBar(){
+        getSupportActionBar().hide();
+    }
 
     }
 

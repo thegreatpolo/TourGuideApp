@@ -39,7 +39,14 @@ public class GeneralActivity extends AppCompatActivity {
         //   2. Update the view pager when a tab is selected
         //   3. Set the tab layout's tab names with the view pager's adapter's titles
         //      by calling onPageTitle()
-        //tabLayout.setupWithViewPager(viewPager);
+        tabLayout.setupWithViewPager(viewPager);
+
+        hideActionBar();
 
     }
+
+    public void hideActionBar(){
+        getSupportActionBar().hide();
+    }
+
 }

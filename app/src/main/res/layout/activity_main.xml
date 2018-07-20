@@ -14,7 +14,7 @@
         android:layout_above="@id/corsica_head"
         android:layout_marginBottom="@dimen/title_layout"
         android:layout_marginRight="@dimen/title_layout"
-        android:background="@android:color/holo_green_light"
+        android:background="@color/colorPrimaryDark"
         android:gravity="center"
         android:padding="@dimen/standardpadding"
         android:text="Welcome to Corsica!"

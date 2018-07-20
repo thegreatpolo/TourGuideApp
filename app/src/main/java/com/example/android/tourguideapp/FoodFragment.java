@@ -24,22 +24,17 @@ public class FoodFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        View rootView = inflater.inflate(R.layout.list, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_food, container, false);
 
         ArrayList<Stuff> stuff = new ArrayList<Stuff>();
-        stuff.add(new Stuff(R.string.lonzo));
-        stuff.add(new Stuff(R.string.lonzo));
-        stuff.add(new Stuff(R.string.lonzo));
-        stuff.add(new Stuff(R.string.lonzo));
-        stuff.add(new Stuff(R.string.lonzo));
-        stuff.add(new Stuff(R.string.lonzo));
-        stuff.add(new Stuff(R.string.lonzo));
-        stuff.add(new Stuff(R.string.lonzo));
-        stuff.add(new Stuff(R.string.lonzo));
-        stuff.add(new Stuff(R.string.lonzo));
-        stuff.add(new Stuff(R.string.lonzo));
-        stuff.add(new Stuff(R.string.lonzo));
-        stuff.add(new Stuff(R.string.lonzo));
+        stuff.add(new Stuff(R.string.chestnut, R.string.chestnut_detail));
+        stuff.add(new Stuff(R.string.cheese, R.string.cheese_detail));
+        stuff.add(new Stuff(R.string.lonzu, R.string.lonzu_detail));
+        stuff.add(new Stuff(R.string.coppa, R.string.coppa_detail));
+        stuff.add(new Stuff(R.string.figatellu, R.string.figatellu_detail));
+        stuff.add(new Stuff(R.string.wine, R.string.wine_detail));
+        stuff.add(new Stuff(R.string.beer, R.string.beer_detail));
+
 
 
         StuffAdapter adapter = new StuffAdapter(getActivity(), stuff);
