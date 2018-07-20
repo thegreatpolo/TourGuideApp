@@ -3,6 +3,11 @@
     <string name="general_description">Corsica is a French island located in the mediterranean sea, southeast of the French mainland.</string>
     <string name="credits_corsica_map_general">Picture: Eric Gaba – Wikimedia Commons user: Sting \nCC BY-SA 3.0</string>
 
+    <string name="welcome">Welcome to Corsica!</string>
+    <string name="click_anyware">Click anyware to continue</string>
+
+    <string name="corsica_history">The origin of the name Corsica is subject to much debate and remains a mystery. It has been occupied continuously since the Mesolithic era. It acquired an indigenous population that was influential in the Mediterranean during its long prehistory. Corsica was integrated by Emperor Diocletian (r. 284-305) in Roman Italy. In the 5th century, the western half of the Roman Empire collapsed, and the island was invaded by the Vandals and the Ostrogoths. Briefly recovered by the Byzantines, it soon became part of the Kingdom of the Lombards. This made it a dependency of the March of Tuscany, which used it as an outpost against the Saracens. Pepin the Short, king of the Franks and Charlemagne\'s father, expelled the Lombards and nominally granted Corsica to Pope Stephen II. In the first quarter of the 11th century, Pisa and Genoa together freed the island from the threat of Arab invasion. After that, the island came under the influence of the republic of Pisa. In the 16th century, the island entered into the fight between Spain and France for the supremacy in Italy. In 1553, a Franco-Ottoman fleet occupied Corsica, but the reaction of Spain and Genoa, led by Andrea Doria, reestablished the Genoese supremacy on the island. In 1729 the Corsican Revolution for independence from Genoa began, and the independent Corsican Republic was proclaimed in 1755 under the leadership of Pasquale Paoli. It will last until 1769, when the island is conquered by France.</string>
+    <string name="a_bit_of_history">A bit of History</string>
     <string name="general">General</string>
     <string name="cuisine">Cuisine</string>
     <string name="corsica">Corsica</string>
@@ -39,7 +44,7 @@
 
     <string name="corte">Corte</string>
     <string name="corte_detail"> it is one of the major university town in Corsica, and was the capital of the Corsican independent state.</string>
-    
+
     <string name="porto_vecchio">Porto\nVecchio</string>
     <string name="porto_vecchio_detail">Located in the south east of Corsica, this important port city is know for its seaside </string>
 
@@ -49,4 +54,40 @@
     <string name="ile_rousse">L\'île-\nRousse</string>
     <string name="ile_rousse_detail">L\'île-Rousse was founded in 1758 by Pasquale Paoli to create a port that would not be in the hands of the Genoese like Calvi. </string>
 
+    <string name="tour_genoise">Genoese towers</string>
+    <string name="tour_genoise_description">The Genoese towers in Corsica are a series of coastal defences constructed by the Republic of Genoa between 1530 and 1620 to stem the attacks by Barbary pirates.</string>
+
+    <string name="santa_maria">Santa Maria tower</string>
+    <string name="santa_maria_detail">located in Rogliano. Picture: Sylvain Guillaumon </string>
+
+    <string name="poggio">Poggio tower</string>
+    <string name="poggio_detail">located in Tomino. Picture: Pierre Bona</string>
+
+    <string name="osse">Osse tower</string>
+    <string name="osse_detail">located in Cagnano. Picture: Ixitixel</string>
+
+    <string name="seneque">Seneque tower</string>
+    <string name="seneque_detail">located in Luri. Picture: Pinpin</string>
+
+    <string name="tollare">Tollare tower</string>
+    <string name="tollare_detail">located in Ersa. Picture: Pierre Bona </string>
+
+    <string name="hikes">Hikes</string>
+    <string name="hikes_description">Corsica offers plenty of mountains for hikers!</string>
+
+    <string name="monte_astu">Monte Astu</string>
+    <string name="monte_astu_detail">a 5:30 hours easy hike</string>
+
+    <string name="monte_renoso">Monte Renoso</string>
+    <string name="monte_renoso_detail">a 3:30 hours moderate hike</string>
+
+    <string name="monte_rotondo">Monte Rotondo</string>
+    <string name="monte_rotondo_detail">a 7:30 hours difficult hike</string>
+
+    <string name="chapel_santo_eliseo">Monte Astu</string>
+    <string name="chapel_santo_eliseo_detail">a 5:30 hours moderate hike</string>
+    <string name="capu_dorto">Capu d\'Orto</string>
+    <string name="capu_dorto_detail">a 6:30 hours difficult hike</string>
+    <string name="monte_incudine">Monte Incudine</string>
+    <string name="monte_incudine_detail">a 10:00 hours difficult hike</string>
 </resources>

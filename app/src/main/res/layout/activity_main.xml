@@ -2,10 +2,10 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.tourguideapp.MainActivity"
-    android:id="@+id/home">
+    tools:context="com.example.android.tourguideapp.MainActivity">
 
     <TextView
         android:id="@+id/welcome_to_corsica"
@@ -17,14 +17,10 @@
         android:background="@color/colorPrimaryDark"
         android:gravity="center"
         android:padding="@dimen/standardpadding"
-        android:text="Welcome to Corsica!"
+        android:text="@string/welcome"
         android:textColor="@android:color/black"
         android:textSize="@dimen/title"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textStyle="bold" />
 
     <LinearLayout
         android:id="@+id/corsica_head"
@@ -51,6 +47,6 @@
         android:layout_alignParentBottom="true"
         android:gravity="center"
         android:padding="@dimen/standardpadding"
-        android:text="Click anyware to continue" />
+        android:text="@string/click_anyware" />
 
 </RelativeLayout>

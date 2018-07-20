@@ -34,6 +34,10 @@ public class CategoryAdapter extends FragmentPagerAdapter {
             return new GeneralFragment();
         } else if (position == 1) {
             return new FoodFragment();
+        } else if (position == 2) {
+            return new TourGenoiseFragment();
+        } else if (position == 3) {
+            return new HikesFragment();
         } else {
             return new PlacesFragment();
         }
@@ -44,7 +48,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
      **/
     @Override
     public int getCount() {
-        return 3;
+        return 5;
     }
 
     @Override
@@ -53,6 +57,10 @@ public class CategoryAdapter extends FragmentPagerAdapter {
             return mContext.getString(R.string.general);
         } else if (position == 1) {
             return mContext.getString(R.string.cuisine);
+        } else if (position == 2) {
+            return mContext.getString(R.string.tour_genoise);
+        } else if (position == 3) {
+            return mContext.getString(R.string.hikes);
         } else {
             return mContext.getString(R.string.places);
         }

@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.support.v4.app.Fragment;
 import android.widget.TextView;
@@ -15,7 +16,7 @@ import java.util.ArrayList;
  */
 public class PlacesFragment extends Fragment {
 
-    public PlacesFragment() {    // Not sure why this is required
+    public PlacesFragment() {
         // Required empty public constructor
     }
 
@@ -39,15 +40,11 @@ public class PlacesFragment extends Fragment {
         stuff.add(new Stuff(R.string.corte, R.string.corte_detail));
         stuff.add(new Stuff(R.string.ile_rousse, R.string.ile_rousse_detail));
 
-
-
-
         StuffAdapter adapter = new StuffAdapter(getActivity(), stuff);
 
         ListView listView = (ListView) rootView.findViewById(R.id.list);
 
         listView.setAdapter(adapter);
-
 
         return rootView;
     }

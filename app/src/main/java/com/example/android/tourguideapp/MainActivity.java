@@ -20,11 +20,11 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, GeneralActivity.class);
                 startActivity(intent);
             }
-        });}
+        });
+    }
 
-    public void hideActionBar(){
+    public void hideActionBar() {
         getSupportActionBar().hide();
     }
-
-    }
+}
 
