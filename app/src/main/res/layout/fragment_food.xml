@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/general"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    >
 
     <TextView
         android:id="@+id/category"
@@ -24,7 +26,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/borders"
-        android:text="Corsica is particularly known for its local delicacies, produced with respect towards traditions."
+        tools:text="Corsica is particularly known for its local delicacies, produced with respect towards traditions."
         android:textColor="@android:color/black"
         android:textAppearance="?android:textAppearanceMedium" />
 

@@ -81,7 +81,7 @@
                 android:layout_marginLeft="@dimen/borders"
                 android:layout_marginRight="@dimen/borders"
                 android:layout_marginTop="@dimen/borders"
-                android:text="A bit of History"
+                android:text="@string/a_bit_of_history"
                 android:textColor="@android:color/black"
                 android:textSize="@dimen/title" />
 
@@ -102,7 +102,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/borders"
                 android:layout_marginBottom="@dimen/borders"
-                android:text="More on wikipedia"
+                android:text="@string/more_on_wiki"
                 android:textAppearance="?android:textAppearanceMedium"
                 android:textColor="@android:color/holo_blue_dark" />
         </LinearLayout>

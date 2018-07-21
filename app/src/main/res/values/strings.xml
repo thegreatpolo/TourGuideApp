@@ -8,8 +8,10 @@
 
     <string name="corsica_history">The origin of the name Corsica is subject to much debate and remains a mystery. It has been occupied continuously since the Mesolithic era. It acquired an indigenous population that was influential in the Mediterranean during its long prehistory. Corsica was integrated by Emperor Diocletian (r. 284-305) in Roman Italy. In the 5th century, the western half of the Roman Empire collapsed, and the island was invaded by the Vandals and the Ostrogoths. Briefly recovered by the Byzantines, it soon became part of the Kingdom of the Lombards. This made it a dependency of the March of Tuscany, which used it as an outpost against the Saracens. Pepin the Short, king of the Franks and Charlemagne\'s father, expelled the Lombards and nominally granted Corsica to Pope Stephen II. In the first quarter of the 11th century, Pisa and Genoa together freed the island from the threat of Arab invasion. After that, the island came under the influence of the republic of Pisa. In the 16th century, the island entered into the fight between Spain and France for the supremacy in Italy. In 1553, a Franco-Ottoman fleet occupied Corsica, but the reaction of Spain and Genoa, led by Andrea Doria, reestablished the Genoese supremacy on the island. In 1729 the Corsican Revolution for independence from Genoa began, and the independent Corsican Republic was proclaimed in 1755 under the leadership of Pasquale Paoli. It will last until 1769, when the island is conquered by France.</string>
     <string name="a_bit_of_history">A bit of History</string>
+    <string name="more_on_wiki">More on Wikipedia</string>
     <string name="general">General</string>
     <string name="cuisine">Cuisine</string>
+    <string name="cuisine_description">Corsica is particularly known for its local delicacies, produced with respect towards traditions.</string>
     <string name="corsica">Corsica</string>
 
     <string name="chestnut">Chestnut</string>
